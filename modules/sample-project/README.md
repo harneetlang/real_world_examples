@@ -31,12 +31,6 @@ This project uses **only local packages** - no external modules or go.mod file n
 harneet main.ha
 ```
 
-### Or use the justfile recipe
-
-```bash
-just demo_sample_project
-```
-
 ## Features Demonstrated
 
 ### Local Package System
