@@ -10,7 +10,8 @@
 */
 
 package main
-import fmt, db, file, os,  reflect
+import fmt, db, file, os
+// import reflect //use this to see what was the type of var
 
 const SQLITE_DB = "complete_example_db.db"
 
