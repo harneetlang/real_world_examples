@@ -1,3 +1,11 @@
+/*
+    Harneet Programming Language 
+    File Name - minimal_scraper.ha.
+    Purpose - provides an example of how to
+        1. Perform Webscraping in Harneet Programming language
+    Purposefuly verbose - so as to show all the functionalities of the language
+*/
+
 package main
 
 import fmt
