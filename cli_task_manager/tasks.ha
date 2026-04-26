@@ -53,7 +53,7 @@ function loadTasks() []Task {
     for i < len(items) {
         var item map[string]any = items[i]
         var id int, _ = cast.ToInt(item["id"])
-        var title string, _ = cast.ToString(item["title"])
+        title , _ := cast.ToString(item["title"])
         var done bool, _ = cast.ToBool(item["done"])
         var t Task = Task {id: id, title: title, done: done}
         tasks = append(tasks, t)
